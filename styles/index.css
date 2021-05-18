@@ -47,6 +47,9 @@ a {
     margin-left: 30%;
   }
 }
+a:hover {
+  color: darkslateblue;
+}
 .container {
   max-width: 90%;
   margin: 0 auto;
@@ -54,7 +57,7 @@ a {
   background-color: rgba(22, 31, 39, 0.37);
 }
 .header4 {
-  margin-top: 5%;
+  margin-top: 7%;
   margin-bottom: 3%;
   background-color: rgba(68, 68, 68, 0.13);
   display: flex;
@@ -63,9 +66,9 @@ a {
 .header4 h1 {
   font-size: 35px;
   letter-spacing: 6px;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #100000;
   padding-top: 0.5%;
   padding-left: 1%;
   padding-bottom: 0.6%;
-  color: rgb(58, 78, 78);
+  color: rgb(105, 137, 150);
 }
