@@ -75,10 +75,10 @@ a:hover {
   background-color: #29283173;
   margin-right: 5%;
   margin-left: 5%;
-  border-radius: 5.5%;
+  border-radius: 6%;
   padding: 5%;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2.5%;
 }
 .columns2 p {
   color: rgba(88, 107, 119, 0.774);
@@ -91,4 +91,7 @@ a:hover {
   .columns2 div {
     width: 65%;
   }
+}
+.aboutp {
+  line-height: 1.7em;
 }
