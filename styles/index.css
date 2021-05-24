@@ -12,8 +12,8 @@ body {
   position: fixed;
   width: 100%;
   z-index: 10;
-  color: rgb(141, 141, 141);
-  box-shadow: 0 5px 6px rgba(255, 255, 255, 0.13);
+  color: rgb(187, 187, 187);
+  box-shadow: 0 5px 6px rgba(255, 255, 255, 0.068);
   top: 0%;
   left: 0%;
   background-size: 100%;
@@ -27,6 +27,10 @@ body {
   letter-spacing: 3px;
   padding: 10px;
 }
+.red-o {
+  color: red;
+}
+
 .menu {
   width: 30%;
   margin-left: 80%;
@@ -56,6 +60,11 @@ a:hover {
   margin-top: 7%;
   background-color: rgba(22, 31, 39, 0.37);
 }
+@media screen and (max-width: 800px) {
+  .container {
+    margin-top: 15%;
+  }
+}
 .header4 {
   margin-top: 7%;
   margin-bottom: 3%;
@@ -66,9 +75,63 @@ a:hover {
 .header4 h1 {
   font-size: 35px;
   letter-spacing: 6px;
-  text-shadow: 2px 2px 4px #100000;
+  text-shadow: 1px 1px 3px #100000;
   padding-top: 0.5%;
   padding-left: 1%;
   padding-bottom: 0.6%;
-  color: rgb(105, 137, 150);
+  color: rgba(211, 211, 211, 0.527);
+}
+.projekt {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 75%;
+  margin-top: 5%;
+  border-radius: 10px;
+  background-color: #161616;
+}
+.p-flygplan {
+  font-size: 2.5vw;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  letter-spacing: 2px;
+  color: rgb(142, 143, 148);
+  text-shadow: 2px 2px 4px #10000081;
+}
+.flygplan {
+  width: 70%;
+  height: 15%;
+  border-radius: 1.5%;
+}
+.planbeskrivning {
+  color: rgb(106, 128, 150);
+  font-size: 1.5vw;
+  margin: 0% 20%;
+  padding-bottom: 5%;
+  padding-top: 1.5%;
+}
+.planbeskrivning a {
+  color: rgb(167, 167, 167);
+}
+.planbeskrivning a:hover {
+  color: aliceblue;
+}
+.p-skog {
+  font-size: 2.5vw;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  letter-spacing: 2px;
+  color: rgb(142, 143, 148);
+  text-shadow: 2px 2px 4px #10000081;
+}
+.skog {
+  width: 70%;
+  border-radius: 1.5%;
+}
+.skogbeskrivning {
+  color: rgb(106, 128, 150);
+  font-size: 1.5vw;
+  margin: 0% 20%;
+  padding-bottom: 5%;
+  padding-top: 1.5%;
 }
