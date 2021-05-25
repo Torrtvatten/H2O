@@ -86,7 +86,7 @@ a:hover {
 .columns h2 {
   color: slategray;
   text-align: center;
-  font-size: 200%;
+  font-size: 150%;
 }
 .columns p {
   padding-top: 3%;
@@ -118,5 +118,8 @@ a:hover {
   }
   .columns p {
     font-size: 120%;
+  }
+  .box1 a {
+    font-size: 100%;
   }
 }

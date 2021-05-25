@@ -60,7 +60,7 @@ a:hover {
   margin-top: 7%;
   background-color: rgba(22, 31, 39, 0.37);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .container {
     margin-top: 15%;
   }
@@ -70,7 +70,7 @@ a:hover {
   margin-bottom: 3%;
   background-color: rgba(68, 68, 68, 0.13);
   display: flex;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 .header4 h1 {
   font-size: 35px;
@@ -87,7 +87,7 @@ a:hover {
   margin: 0 auto;
   width: 45%;
   margin-top: 5%;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #161616;
 }
 @media screen and (max-width: 1600px) {
