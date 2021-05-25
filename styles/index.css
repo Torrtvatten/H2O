@@ -169,3 +169,14 @@ a:hover {
   padding-top: 1.5%;
   font-family: "Noto Serif", serif;
 }
+@media screen and (max-width: 900px) {
+  .planbeskrivning {
+    font-size: 2.6vw;
+  }
+  .skogbeskrivning {
+    font-size: 2.6vw;
+  }
+  .vattenbeskrivning {
+    font-size: 2.6vw;
+  }
+}

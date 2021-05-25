@@ -62,7 +62,7 @@ a:hover {
   margin: 0 auto;
 }
 .header2 {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-bottom: 5%;
   color: slategray;
   text-align: center;
@@ -114,7 +114,7 @@ a:hover {
 @media screen and (max-width: 900px) {
   .header2 h1 {
     font-size: 30px;
-    margin-top: 22%;
+    margin-top: 28%;
   }
   .columns p {
     font-size: 120%;
