@@ -55,7 +55,7 @@ a:hover {
   color: darkslateblue;
 }
 .container {
-  max-width: 90%;
+  max-width: 70%;
   margin: 0 auto;
   margin-top: 7%;
   background-color: rgba(22, 31, 39, 0.37);
@@ -85,10 +85,18 @@ a:hover {
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  width: 75%;
+  width: 45%;
   margin-top: 5%;
   border-radius: 10px;
   background-color: #161616;
+}
+@media screen and (max-width: 1600px) {
+  .projekt {
+    width: 60%;
+  }
+  .container {
+    max-width: 90%;
+  }
 }
 .p-flygplan {
   font-size: 2.5vw;
@@ -97,6 +105,7 @@ a:hover {
   letter-spacing: 2px;
   color: rgb(142, 143, 148);
   text-shadow: 2px 2px 4px #10000081;
+  font-family: "Noto Serif", serif;
 }
 .flygplan {
   width: 70%;
@@ -109,6 +118,7 @@ a:hover {
   margin: 0% 20%;
   padding-bottom: 5%;
   padding-top: 1.5%;
+  font-family: "Noto Serif", serif;
 }
 .planbeskrivning a {
   color: rgb(167, 167, 167);
@@ -123,6 +133,7 @@ a:hover {
   letter-spacing: 2px;
   color: rgb(142, 143, 148);
   text-shadow: 2px 2px 4px #10000081;
+  font-family: "Noto Serif", serif;
 }
 .skog {
   width: 70%;
@@ -134,4 +145,27 @@ a:hover {
   margin: 0% 20%;
   padding-bottom: 5%;
   padding-top: 1.5%;
+  font-family: "Noto Serif", serif;
+}
+.p-vatten {
+  font-size: 2.5vw;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  letter-spacing: 2px;
+  color: rgb(142, 143, 148);
+  text-shadow: 2px 2px 4px #10000081;
+  font-family: "Noto Serif", serif;
+}
+.vatten {
+  width: 70%;
+  border-radius: 1.5%;
+  margin-bottom: 0.5%;
+}
+.vattenbeskrivning {
+  color: rgb(106, 128, 150);
+  font-size: 1.5vw;
+  margin: 0% 20%;
+  padding-bottom: 5%;
+  padding-top: 1.5%;
+  font-family: "Noto Serif", serif;
 }
